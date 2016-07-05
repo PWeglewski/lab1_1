@@ -7,28 +7,9 @@ public class Offer {
 
     private List<OfferItem> items = new ArrayList<OfferItem>();
 
-//	private List<OfferItem> availabeItems = new ArrayList<OfferItem>();
-//
-//	private List<OfferItem> unavailableItems = new ArrayList<OfferItem>();
-
     public Offer(List<OfferItem> items) {
         this.items = items;
     }
-
-
-//	public Offer(List<OfferItem> items, List<OfferItem> availabeItems, List<OfferItem> unavailableItems) {
-//		this.items = items;
-//		this.availabeItems = availabeItems;
-//		this.unavailableItems = unavailableItems;
-//	}
-
-//	public List<OfferItem> getAvailabeItems() {
-//		return availabeItems;
-//	}
-//
-//	public List<OfferItem> getUnavailableItems() {
-//		return unavailableItems;
-//	}
 
     public List<OfferItem> getItems() {
         return items;
